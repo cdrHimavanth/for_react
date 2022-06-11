@@ -1,0 +1,49 @@
+.topNav-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 5%;
+  background-color: transparent;
+}
+.topNav-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+}
+.logoutButtonLight {
+  padding: 10px;
+  border: solid 1px #3b82f6;
+  color: #3b82f6;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.logoutButtonDark {
+  padding: 10px;
+  border: solid 1px white;
+  color: white;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.themeButton {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+.themeIcon {
+  font-size: 25px;
+}
+.popupContainerLight {
+  background-color: white;
+  color: black;
+  padding: 30px;
+}
+.popupContainerDark {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}

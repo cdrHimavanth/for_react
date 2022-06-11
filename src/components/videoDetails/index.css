@@ -1,0 +1,34 @@
+.unorderedListOfThumbnails {
+  height: 90%;
+  width: 100%;
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bodyContainer {
+  width: 80%;
+}
+.innerDetailsListElement {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.innerDetailsListElementRight {
+  width: 80%;
+  padding: 1%;
+}
+.listItem {
+  width: 30%;
+}
+.lightTheme {
+  background-color: white;
+  color: #0f0f0f;
+}
+.darkTheme {
+  background-color: #0f0f0f;
+  color: white;
+}

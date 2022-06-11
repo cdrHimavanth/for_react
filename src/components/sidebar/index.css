@@ -1,0 +1,22 @@
+.sidebar-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 20%;
+  padding: 10px;
+}
+.sidebarOptions {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 10px;
+  list-style-type: none;
+}
+.active {
+  background-color: #d6fffc;
+  padding: 10px;
+}
+.linkStyle {
+  text-decoration: none;
+}
